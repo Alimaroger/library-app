@@ -1,0 +1,190 @@
+@import ;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Roboto',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(pexels-olenkabohovyk-3646172.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.wrapper{
+  width: 500px;
+  background-color:rgba(71, 51, 24,0.5);
+  border-radius: 45px;
+  border:2px;
+  padding: 30px 40px;
+  backdrop-filter: 20px;
+  
+  
+}
+.wrapper h1 {
+  font-size: 45px;
+  text-align: center;
+}
+.wrapper .input-box{
+  width: 100%;
+  height: 53px;
+  margin: 30px 0;
+  
+  
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(52, 50, 50);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  color: white;
+}
+.input-box input::placeholder{
+  color: rgb(67, 67, 51);
+}
+.input-box i {
+  position: absolute;
+  right: 180px;
+  font-size: 25px;
+  padding-top: 18px;
+  padding-right: 29px;
+
+}
+.remember-forgotten{
+  accent-color: black;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.remember-forgotten a{
+  color: beige;
+  text-decoration: none;
+  padding-left: 160px;
+  font-weight: 100px;
+}
+.remember-forgotten a:hover{
+  text-decoration: underline;
+}
+.btn{
+  width: 120px;
+  height: 45px;
+  background: beige;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgb(71, 68, 68);
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+ 
+  align-items: center;
+}
+.register-new a {
+  color: beige;
+  text-decoration: none;
+  font-weight: 100px;
+  padding-top: 45px;
+  font-size:large;
+}
+
+
+
+.signup-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  
+}
+.header-signup{
+  font-size: 25px;
+  text-align: center;
+
+}
+.signup-page{
+  background:url(pexels-cottonbro-6344231.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.welcome-form{
+  
+  border: solid;
+  font-size: small;
+  display:inline-block
+  padding-left: ;
+  align-items: center;
+
+}
+.signup-form{
+  padding-left: 250px;
+  height: 150px;
+  border: none;
+  
+ 
+
+
+
+ 
+}
+
+
+
+}
+.para{
+
+ width: 150px;
+ padding-bottom: 35px;
+
+
+ 
+ 
+  
+
+}
+.sec{
+  width: 400px;
+  
+}
+.container {
+  border: 2px solid rgb(52, 50, 50);
+  border-radius: 40px;
+  outline: none;
+  font-style: oblique;
+  font-size:x-large;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(71, 51, 24,0.5);
+  padding-bottom: 100px;
+  
+  
+}
+.form-group::placeholder{
+  color:rgb(66, 56, 44) ;
+}
+.big-head{
+  font-size:xx-large;``
+padding-bottom: 35px;
+}
+.big-header{
+  font-size:50px;
+  margin-top: 100px;
+  
+}
